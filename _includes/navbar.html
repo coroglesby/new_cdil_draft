@@ -1,0 +1,44 @@
+<div id="navbar-main">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-fixed-top">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{ '/' | absolute_url }}"">CD?L</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                
+                <ul class="nav navbar-nav">
+
+                    <li> <a href="{{ '/pages/about.html' | absolute_url }}"> About</a></li>
+                    
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">People<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ '/pages/people.html' | absolute_url }}">Staff</a></li>
+                            <li><a href="{{ '/pages/people.html/#faculty' | absolute_url }}">Faculty Fellows</a></li>
+                            <li><a href="{{ '/pages/people.html/#students' | absolute_url }}">Student Fellows</a></li>
+                            <li><a href="{{ '/pages/people.html/#collaborators' | absolute_url }}">Collaborators</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li> <a href="{{ '/pages/projects.html' | absolute_url }}"> Projects</a></li>
+                    
+                    <li> <a href="{{ '/pages/events.html' | absolute_url }}"> Workshops & Events</a></li>
+                    
+                    <li> <a href="{{ '/pages/fellowships.html' | absolute_url }}"> Fellowships & Opportunities</a></li>
+                    
+
+                </ul>
+                    
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+</div>

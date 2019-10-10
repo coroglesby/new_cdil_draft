@@ -1,0 +1,109 @@
+    /*------------General--------------*/    
+    
+    body {
+       font-family: 'Archivo', sans-serif;
+       line-height: 1.4;
+       padding-top: 70px; 
+       font-weight: 300;
+       font-size: 16px;
+       color: #555;
+   
+       -webkit-font-smoothing: antialiased;
+       -webkit-overflow-scrolling: touch;
+    }
+
+    html,
+    body {
+       height: 100%;
+    }
+ 
+    p {
+        line-height: 28px;
+        margin-bottom: 25px;
+        }
+    
+    .centered {
+        text-align: center;
+    }
+
+    hr {
+        position: relative;
+        border: none;
+    }
+    hr:before {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 25%;
+        width: 50%;
+        height: 2px;
+        background: #ccc;
+    }
+ 
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Archivo Black', sans-serif;
+        font-weight: 100;
+        color: rgb(0, 0, 0);
+    }    
+
+    /*----------------------Navbar--------------------*/
+   
+    .navbar-fixed-top.scrolled {
+    background-color: rgba(0, 0, 0, 0.555) !important;
+    transition: background-color 200ms linear;
+    }
+
+    .navbar-fixed-top {
+        color: white;
+        background-color: black;
+        transition: background-color 200ms linear; 
+    }
+
+    .navbar-nav > li > a {
+        color: white;
+    }
+
+    .navbar-nav > li > a:hover,
+    .navbar-nav > li > a:active {
+        color: rgb(255, 255, 255);
+        background-color: black;
+    }
+
+    .nav .open > a, 
+    .nav .open > a:hover,
+    .nav .open > a:focus {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .dropdown-menu {
+        background-color: rgba(0, 0, 0, 0.555);
+    }
+
+    .dropdown-menu > li > a {
+        color: white;
+    }
+
+    .dropdown-menu > li > a:hover {
+        display: block;
+        padding: 3px 20px;
+        clear: both;
+        font-weight: normal;
+        line-height: 1.428571429;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        white-space: nowrap;
+    }
+
+    .navbar-default {
+        border-color: transparent;
+        background-color: #dadada;
+        z-index:1
+    }
+
+    .navbar-brand {
+        color: white;
+        font-size: 50px;
+    }
+
+   

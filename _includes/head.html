@@ -1,0 +1,79 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="The Center for Digital Inquiry and Learning (CDIL) is a collaboration between the College of Letters,  Arts and Social Sciences (CLASS) and the University of Idaho Library. Its purpose is to advance digital scholarship opportunities at the University of Idaho.">
+
+	<title>Center for Digital Inquiry and Learning (CDIL) - University of Idaho</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="{{ '/assets/css/bootstrap.css' | absolute_url }}" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="{{ '/assets/css/main.css' | absolute_url }}" rel="stylesheet">
+
+	<!--Google Fonts, UI Brand Alternative-->
+	<link href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Black|Archivo+Narrow&display=swap" rel="stylesheet">
+
+
+	<script src="{{ '/assets/js/jquery.min.js' | absolute_url }}"></script>
+	<script type="text/javascript" src="{{ '/assets/js/modernizr.custom.js' | absolute_url }}"></script>
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+	<style>
+		figure img {
+			max-height: 400px;
+			width: auto;
+		}
+
+		.navbar-inverse .navbar-nav>li>a {
+			color: #E2DEDE;
+		}
+
+		.navbar-inverse .navbar-brand {
+			color: #E2DEDE;
+			font-size: 28px;
+		}
+
+		.trelllist {
+			font-size: 20px;
+		}
+
+		.trelllist a {
+			font-size: 16px;
+		}
+
+		.s-lc-ea-h3 {
+			display: none;
+		}
+	</style>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76328753-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  /* load umbrella property with enhanced link attribution and cross domain tracking */
+	  gtag('config', 'UA-76328753-1', {
+		'link_attribution': true,
+		'linker': {
+		  'domains': ['www.lib.uidaho.edu', 'www.ijc.uidaho.edu', 'vivo.nkn.uidaho.edu', 'inside.uidaho.edu', 'www.insideidaho.org', 'libguides.uidaho.edu', 'digital.lib.uidaho.edu', 'poetry.lib.uidaho.edu', 'journals.lib.uidaho.edu', 'cdil.lib.uidaho.edu']
+		}
+	  });
+	</script>
+	
+	<!--Transparent scrolling navbar-->
+	<script>
+		$(function () {
+			$(document).scroll(function () {
+			var $nav = $(".navbar-fixed-top");
+			$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+			});
+		});
+	  </script>
+	  
+</head>
